@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <!doctype html>
 <html>
 
@@ -7,22 +10,24 @@
   <title>Main Page</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="Css/reset.css">
-  <link rel="stylesheet" href="Css/font.css">
-  <link rel="stylesheet" href="Css/style.css">
-  <link rel="stylesheet" href="Css/style-exam.css">
-  <link rel="stylesheet" href="Css/jd-slider.css">
+  <link rel="stylesheet" href="../css/font.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style-exam.css">
+  <link rel="stylesheet" href="../css/jd-slider.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css"
     integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css"
     integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
-  <script src="js/jquery.js"></script>
-  <script src="js/jquery.jdSlider-latest.min.js"></script>
+
+  <script src="../js/jquery.js"></script>
+  <script src="../js/jquery.jdSlider-latest.min.js"></script>
 </head>
 <body>
     <div id="header">
       <header>
-        <a href="#" title="Logo"><img src="Img/logo.png" alt="logo"></a>
+        <a href="#" title="Logo"><img src="../img/logo.png" alt="logo"></a>
         <nav>
           <a href="">STYLE</a> <a href="">SHOP</a> <a href="">ABOUT</a> <a href="">SIGN IN</a>
         </nav>
@@ -33,14 +38,14 @@
         <div class="slide-inner">
           <ul class="slide-area">
             <li>
-              <a href="#"><img src="Img/img-sample-lg.jpg" alt="img01">
+              <a href="#"><img src="../img/img-sample-lg.jpg" alt="img01">
                 <dl>
                   <dt class="main-tit" >MAIN BANNER</dt>
                 </dl>
               </a>
             </li>
             <li>
-              <a href="#"><img src="Img/img-sample-lg.jpg" alt="img02">
+              <a href="#"><img src="../img/img-sample-lg.jpg" alt="img02">
                 <dl>
                   <dt class="main-tit">MAIN BANNER</dt>
                 </dl>
@@ -67,7 +72,7 @@
         <div class="row row-cols-3">
           <div class="col">
             <div class="card" style="width: 18rem;">
-              <img src="Img/img-sample.png" class="card-img-top" alt="...">
+              <img src="../img/img-sample.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text"><span class="card-text-tit">@fakljs<br></span>불가사링 실물갑<br>#데일리룩 #dailylook #스타피쉬 #스타피쉬조던 #Starfish</p>
               </div>
@@ -75,7 +80,7 @@
           </div>
           <div class="col">
             <div class="card" style="width: 18rem;">
-              <img src="Img/img-sample.png" class="card-img-top" alt="...">
+              <img src="../img/img-sample.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text"><span class="card-text-tit">@fakljs<br></span>불가사링 실물갑<br>#데일리룩 #dailylook #스타피쉬 #스타피쉬조던 #Starfish</p>
               </div>
@@ -83,7 +88,7 @@
           </div>
           <div class="col">
             <div class="card" style="width: 18rem;">
-              <img src="Img/img-sample.png" class="card-img-top" alt="...">
+              <img src="../img/img-sample.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text"><span class="card-text-tit">@fakljs<br></span>불가사링 실물갑<br>#데일리룩 #dailylook #스타피쉬 #스타피쉬조던 #Starfish</p>
               </div>
@@ -91,9 +96,6 @@
           </div>
         </div>
       </div>
-
-
-
       <div class="bannerimg" ><p>
         <MARQUEE  scrollamount="30" style="font-size: 160px; font-weight: bold; color:#000">FLEX FOR LIMITED EDITION TRANSACTION</MARQUEE>
         <!-- 스크롤의 속도 -->
@@ -104,7 +106,7 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
           <div class="col">
             <div class="card" style="width: 18rem;">
-              <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+              <img src="../img/img-sample2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text"><span class="card-text-tit">NIKE AIR<br></span>TREVISCAT</p>
               </div>
@@ -112,7 +114,7 @@
           </div>
           <div class="col">
             <div class="card" style="width: 18rem;">
-              <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+              <img src="../img/img-sample2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text"><span class="card-text-tit">NIKE AIR<br></span>TREVISCAT</p>
               </div>
@@ -120,7 +122,7 @@
           </div>
           <div class="col">
             <div class="card" style="width: 18rem;">
-              <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+              <img src="../img/img-sample2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text"><span class="card-text-tit">NIKE AIR<br></span>TREVISCAT</p>
               </div>
@@ -128,7 +130,7 @@
           </div>
           <div class="col">
             <div class="card" style="width: 18rem;">
-              <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+              <img src="../img/img-sample2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text"><span class="card-text-tit">NIKE AIR<br></span>TREVISCAT</p>
               </div>
@@ -143,7 +145,7 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
           <div class="col">
             <div class="card" style="width: 18rem;">
-              <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+              <img src="../img/img-sample2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text"><span class="card-text-tit">NIKE AIR<br></span>TREVISCAT</p>
               </div>
@@ -151,7 +153,7 @@
           </div>
           <div class="col">
             <div class="card" style="width: 18rem;">
-              <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+              <img src="../img/img-sample2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text"><span class="card-text-tit">NIKE AIR<br></span>TREVISCAT</p>
               </div>
@@ -159,7 +161,7 @@
           </div>
           <div class="col">
             <div class="card" style="width: 18rem;">
-              <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+              <img src="../img/img-sample2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text"><span class="card-text-tit">NIKE AIR<br></span>TREVISCAT</p>
               </div>
@@ -167,7 +169,7 @@
           </div>
           <div class="col">
             <div class="card" style="width: 18rem;">
-              <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+              <img src="../img/img-sample2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text"><span class="card-text-tit">NIKE AIR<br></span>TREVISCAT</p>
               </div>
@@ -178,7 +180,7 @@
       <!-- Footer -->
       <footer>
         <div class="footer-cont">
-          <img src="Img/logo.png" alt="footer-logo" style="padding-bottom:50px">
+          <img src="../img/logo.png" alt="footer-logo" style="padding-bottom:50px">
           <p>이용안내 | 검수기준 | 이용정책 | 패널티 정책 | 커뮤니티 가이드라인</p>
           <p>회사소개 인재채용 제휴제안 이용약관 개인정보처리방침</p>
           <a>크림 주식회사 . 대표김창욱사업자등록번호:570-88-01618사업자정보확인통신판매업:제 2021-성남분당C-0093호<a>
