@@ -5,7 +5,6 @@ import java.util.List;
 import com.pg.flex.dto.User;
 
 import org.apache.ibatis.annotations.Mapper;
-
 @Mapper
 public interface TestDao {
 
