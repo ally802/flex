@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class LoginController {
 
     @GetMapping("/")
-    public String main(HttpSession session, @RequestParam(value = "fail", defaultValue = "") String fail) {
+    public String main(HttpSession session) {
         return "/index";
     }
 
@@ -35,5 +35,10 @@ public class LoginController {
 
         session.removeAttribute("userName");
         return "redirect:/";
+    }
+
+    @GetMapping(value = "/signup")
+    public String signUp() {
+        return "/sign/sign-up";
     }
 }

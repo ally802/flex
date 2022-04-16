@@ -20,5 +20,13 @@ public class LoginService {
         return "fail";
 
     }
+
+    public void signUp(User user) {
+        dao.signUp(user);
+    }
+
+    public int checkId(User user) {
+        return dao.checkId(user);
+    }
     
 }
