@@ -11,5 +11,9 @@ public interface TestDao {
   public List<User> getAllUser();
 
   public User login(User user);
+
+  public void signUp(User user);
+
+  public int checkId(User user);
   
 }

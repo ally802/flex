@@ -21,4 +21,20 @@
     AND
       password = #{password}
   </select>
+
+  <insert id="signUp">
+    INSERT INTO UserProfile
+      (id, password, name)
+    VALUES
+      (#{id}, #{password}, #{name})
+  </insert>
+
+  <select id="checkId" parameterType="com.pg.flex.dto.User" resultType="int">
+    SELECT 
+      COUNT(*)
+    FROM
+      UserProfile
+    WHERE
+      id = #{id}
+  </select>
 </mapper>
