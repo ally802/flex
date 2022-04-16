@@ -25,13 +25,14 @@
   <script src="resources/js/jquery.jdSlider-latest.min.js"></script>
 </head>
 <body>
-    <div id="header">
+    <!-- <div id="header">
       <header>
         <a href="#" title="Logo"><img src="resources/img/logo.png" alt="logo"></a>
         <nav>
-          <a href="">STYLE</a> <a href="">SHOP</a> <a href="">ABOUT</a> <a href="">SIGN IN</a>
+          <a href="">STYLE</a> <a href="">SHOP</a> <a href="">ABOUT</a> <a href="/sign-in">SIGN IN</a>
         </nav>
-      </header>
+      </header> -->
+      <jsp:include page="/WEB-INF/jsp/header.jsp"/>
     </div>
     <div class="content main">
       <section class="jd-slider main-slider main-visual">

@@ -9,5 +9,7 @@ import org.apache.ibatis.annotations.Mapper;
 public interface TestDao {
 
   public List<User> getAllUser();
+
+  public User login(User user);
   
 }
