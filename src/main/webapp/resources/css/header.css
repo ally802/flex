@@ -1,0 +1,13 @@
+header {
+    display: flex;
+}
+
+header > div {
+    flex: 1;
+}
+
+.header-menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}

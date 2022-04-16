@@ -10,4 +10,15 @@
     from   
       UserProfile
   </select>
+
+  <select id="login" parameterType="com.pg.flex.dto.User" resultType="com.pg.flex.dto.User">
+    SELECT
+      name
+    FROM
+      UserProfile
+    WHERE
+      id = #{id}
+    AND
+      password = #{password}
+  </select>
 </mapper>
