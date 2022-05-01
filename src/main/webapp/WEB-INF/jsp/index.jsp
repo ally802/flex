@@ -193,6 +193,10 @@
           <br>
           <a> 단, 거래과정에서 검수하고 보증하는 내용에 대한 책임은 당사에 있습니다.</a>
         </div>
+
+        <div class="test">
+          Test Text
+        </div>
       </footer>
     </div>
 
