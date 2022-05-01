@@ -198,6 +198,8 @@
           Test Text
         </div>
       </footer>
+
+      <template>dfd</template>
     </div>
 
     <!-- Slider Script -->
