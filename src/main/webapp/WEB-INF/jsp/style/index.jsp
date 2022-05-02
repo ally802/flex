@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,14 +14,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="../../../resources/css/style/style.css">
+    <script type="text/javascript" src="../../../resources/js/main/jquery.jdSlider-latest.min.js"></script>
 </head>
 
 <body>
     <div id="header">
         <header>
-            <a href="#" title="Logo"><img src="Img/logo.png"></a>
+            <a href="#" title="Logo"><img src="resources/img/style/logo.png"></a>
             <nav>
                 <a href="">STYLE</a> <a href="">SHOP</a> <a href="">ABOUT</a> <a href="">ABOUT</a>
             </nav>
@@ -43,7 +46,7 @@
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+                            <img src="resources/img/style/img-sample2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
                                     겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
@@ -58,7 +61,7 @@
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+                            <img src="resources/img/style/img-sample2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
                                     겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
@@ -73,7 +76,7 @@
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+                            <img src="resources/img/style/img-sample2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
                                     겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
@@ -88,7 +91,7 @@
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+                            <img src="resources/img/style/img-sample2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
                                     겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
@@ -108,7 +111,7 @@
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+                            <img src="resources/img/style/img-sample2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
                                     겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
@@ -123,7 +126,7 @@
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+                            <img src="resources/img/style/img-sample2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
                                     겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
@@ -138,7 +141,7 @@
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+                            <img src="resources/img/style/img-sample2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
                                     겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
@@ -153,7 +156,7 @@
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+                            <img src="resources/img/style/img-sample2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
                                     겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
@@ -173,7 +176,7 @@
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+                            <img src="resources/img/style/img-sample2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
                                     겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
@@ -188,7 +191,7 @@
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+                            <img src="resources/img/style/img-sample2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
                                     겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
@@ -203,7 +206,7 @@
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+                            <img src="resources/img/style/img-sample2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
                                     겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
@@ -218,7 +221,7 @@
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
+                            <img src="resources/img/style/img-sample2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
                                     겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
@@ -233,11 +236,11 @@
                     </div>
                 </div>
             </div>
-            <div id="con3" class="conBox"><img src="Img/img-sample.png"></div>
+            <div id="con3" class="conBox"><img src="resources/img/style/img-sample.png"></div>
         </div>
         <footer>
             <div class="footer-cont">
-                <img src="Img/logo.png" alt="footer-logo" style="padding-bottom:50px">
+                <img src="resources/img/style/logo.png" alt="footer-logo" style="padding-bottom:50px">
                 <p>이용안내 | 검수기준 | 이용정책 | 패널티 정책 | 커뮤니티 가이드라인</p>
                 <p>회사소개 인재채용 제휴제안 이용약관 개인정보처리방침</p>
                 <a>크림 주식회사 . 대표김창욱사업자등록번호:570-88-01618사업자정보확인통신판매업:제 2021-성남분당C-0093호<a>

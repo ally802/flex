@@ -10,7 +10,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Segoe UI';}
 
 
 /* Footer - footer의 width는 1200px을 기준으로 한다 */
-footer{height:270px;background:#f9f9f9;padding:50px 0;text-align:left}
+footer{height:585px;background:#f9f9f9;padding:50px 0;text-align:left;display:flex;align-items:center}
 footer>div{width:1200px;margin:0 auto}
 .footer-cont p{line-height:4em;border-top:1px solid rgba(0,0,0,.3)}
 .footer-cont p:first-child{border-top:none}

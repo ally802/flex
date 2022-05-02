@@ -4,7 +4,7 @@
 body{margin:0}
 h1 a img{position:relrelative;width:191px;height:90px;margin-left:80px}
 #header{height:90px;background:#fff}
-/* header{font-size:30px;width:1260px;margin:0 auto}  */
+header{font-size:30px;width:100%;padding:0 66px;margin:0 auto;background-color:#fff;position:fixed;z-index:100;box-shadow:0 4px 10px rgba(0,0,0,0.1)}
 h1, nav{display:inline-block;float:left}
 h1{font-size:1em}
 h1 a{color:#282a35;display:inline-block;padding:25px;text-decoration:none;height:90px;box-sizing:border-box}
@@ -12,10 +12,7 @@ nav{text-align:center;float:right}
 nav a{color:#000000;text-decoration:none;padding:25px 30px;display:inline-block;font-size:18px;font-weight:500;font-family:'Segoe UI';line-height:40px}
 nav a:hover{border-bottom:3px solid #282a35;padding-bottom:22px;color:#000000}
 .content{background:#fff;overflow:hidden}
-.tit{margin-top:100px;font-size:30px;font-weight:700;font-family:'Segoe UI'}
-
-
-.thumb-img{text-indent:-999999px;font-size:0;color:transparent;background:#eee no-repeat center / cover;border-radius:15px}
+.tit{margin-top:152px;margin-bottom:61px !important;text-align:center;font-size:40px;font-family:'Segoe UI'}
 
 .main-visual dt{position:absolute;right:20%;top:50%;transform:translateY(-50%);color:#fff;text-align:center;font-size:46px}
 .main-tit{margin-left:auto;margin-right:auto;font-size:30px;font-weight:700;font-family:'Segoe UI'}
@@ -28,22 +25,14 @@ nav a:hover{border-bottom:3px solid #282a35;padding-bottom:22px;color:#000000}
 .related-cont{overflow:hidden}
 .related-cont h5{text-decoration:underline;font-weight:500}
 
-.thumb-img{text-indent:-999999px;font-size:0;color:transparent;background:#eee no-repeat center / cover;border-radius:15px;width:280px;height:280px;margin-bottom:20px}
-.related-cont li:nth-child(1) .thumb-img{background-image:url("../Img/img-sample.jpg")}
-.related-cont li:nth-child(2) .thumb-img{background-image:url("../Img/img-sample.jpg")}
-.related-cont li:nth-child(3) .thumb-img{background-image:url("../Img/img-sample.jpg")}
-.related-cont li:nth-child(4) .thumb-img{background-image:url("../Img/img-sample.jpg")}
-
 .text{font-size:20px;text-align:left;font-family:'Segoe UI'}
 
-.bannerimg{width: 100%;height: 440px;background-image: url("../Img/img-sample-lg.jpg")}
+.bannerimg{width:100%;height:440px;background-image:url("../../img/main/img-sample-lg.jpg");position:relative;z-index:2;display:flex;align-items:center}
 
-.container .card{border:none}
-.card .card-img-top{border-radius:15px}
-.card .card-body{padding:0px 16px 16px 30px}
+.container .card{position:relative;z-index:2;background-color:transparent;border:1px solid #000;border-radius:0}
+.card .card-body{padding:10px 13px 24px 13px;border-top:1px solid #000}
 .card-text-tit{margin-bottom:0;font-size:20px;text-decoration:underline}
 .card-body .card-text{text-align:left;font-size:20px;font-family: 'Segoe UI';}
 .container{margin-bottom:50px}
-.stylecontainer .card .card-img-top{border-radius:0}
 
-.txtscroll{transform:translate(500px,635px) rotate(90deg)}
+.side-txt{transform:translate(450px,500px) rotate(90deg);font-size:160px;font-family:'Segoe UI';font-weight:bold;color:#9D9D9D;;position:absolute;z-index:1}

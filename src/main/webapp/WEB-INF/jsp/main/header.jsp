@@ -9,12 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="resources/css/header.css">
+    <link rel="stylesheet" href="../../../resources/css/main/header.css">
 </head>
 <body>
     <header>
         <div class="header-logo">
-            <a href="/"><img src="resources/img/logo.png" alt=""></a>
+            <a href="/"><img src="../../../resources/img/main/logo.png" alt=""></a>
         </div>
         <div class="header-menu">
             <ul class="header-menu-list">
